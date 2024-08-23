@@ -1,0 +1,90 @@
+*{
+    margin : 0;
+    padding:  0;
+    box-sizing: border-box;
+    font-family: 'Helvetic Neue' ,  sans-serif;
+}
+.main-container{
+    background-color:  #DFD3C3;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    background-color:#D0B8A8 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background-color: #000;
+    padding:25px;
+    width:350px;
+    border-radius: 10px;
+}
+.calc-input{
+    margin-bottom: 20px;
+    padding-left: 5px; 
+    
+}
+
+.calc-input p {
+    width: 100%;
+    height: 70px;
+    border: 2px solid #ccc; 
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    font-size: 3.5rem;
+    text-align: end;
+    padding: 0px 10px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+}
+
+button{
+    background: #333;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 70%;
+    height:65px;
+    width: 65px;
+    cursor:pointer;     
+}
+button:active,button:focus{
+    filter: brightness(120%);
+}
+.calc-keys{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap:15px;    
+}
+.key-zero{
+    grid-column:span 2;
+    width: 100%;
+    border-radius: 30px;
+}
+.operator{
+    background-color: orange;
+}
+.otherkeys{
+    background-color:#a6a6a6;
+    color:#000
+}
+
+.footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#D0B8A8 ;
+    bottom :0;
+    width: 100%;
+    height: 50px;
+    padding : 15px;
+    font-weight: bold;
+
+}
